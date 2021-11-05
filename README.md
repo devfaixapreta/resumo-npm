@@ -1,7 +1,7 @@
 # resumo-npm
 
 ## Instalação do NodeJS
-* [Link gownload Git](https://nodejs.org)
+* [Link gownload NodeJS](https://nodejs.org)
 
 
 # Comandos npm
