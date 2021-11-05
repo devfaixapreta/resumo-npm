@@ -19,6 +19,12 @@ package-lock.json
 
 * Adicionar /node_modules/ no .gitignore
 
+## run
+* Executa um script pelo nome indicado no package.json
+```
+$ npm run <dev-script>
+```
+
 ## init
 * Cria um arquivo package.json
 ```
@@ -37,10 +43,14 @@ $ npm init -y
 $ npm i <package>
 ```
 
-## i --save-dev
+## i --save-dev 
 * Separa as dependencias de desenvolvimento no package.json
 ```
 $ npm i <package> --save-dev
+```
+ou
+```
+$ npm i -D <package> 
 ```
 
 ## i --production
