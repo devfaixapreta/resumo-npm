@@ -1,10 +1,29 @@
 # resumo-npm
 
 ## Instalação do NodeJS
-* [Link gownload NodeJS](https://nodejs.org)
+* [Link download NodeJS](https://nodejs.org)
 
 
 # Comandos npm
+
+## install
+* Instala as dependencias do package.json
+```
+$ npm install
+```
+
+### Arquivos criados pelo npm
+/node_modules/
+package.json
+package-lock.json
+
+* Adicionar /node_modules/ no .gitignore
+
+## run
+* Executa um script pelo nome indicado no package.json
+```
+$ npm run <dev-script>
+```
 
 ## init
 * Cria um arquivo package.json
@@ -22,6 +41,22 @@ $ npm init -y
 * Instala um pacote e adicona no package.json
 ```
 $ npm i <package>
+```
+
+## i --save-dev 
+* Separa as dependencias de desenvolvimento no package.json
+```
+$ npm i <package> --save-dev
+```
+ou
+```
+$ npm i -D <package> 
+```
+
+## i --production
+* Instala apenas as as dependencias de produção package.json
+```
+$ npm install --production
 ```
 
 ## login
