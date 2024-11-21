@@ -19,6 +19,18 @@ package-lock.json
 
 * Adicionar /node_modules/ no .gitignore
 
+## node -v
+* Mostra a versão do node instalada
+```
+$ node -v
+```
+
+## npm -v
+* Mostra a versão do npm instalada
+```
+$ npm -v
+```
+
 ## run
 * Executa um script pelo nome indicado no package.json
 ```
