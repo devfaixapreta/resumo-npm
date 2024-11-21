@@ -31,6 +31,12 @@ $ node -v
 $ npm -v
 ```
 
+## npm@latest
+* Atualiza o npm para a versão mais recente
+```
+$ npm install -g npm@latest
+```
+
 ## run
 * Executa um script pelo nome indicado no package.json
 ```
