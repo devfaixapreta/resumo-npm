@@ -77,6 +77,12 @@ $ npm i -D <package>
 $ npm install --production
 ```
 
+## list
+* Lista as dependencias instaladas
+```
+$ npm list
+```
+
 ## uninstall 
 * Desinstala um pacote e retira no package.json
 ```
