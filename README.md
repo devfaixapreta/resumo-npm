@@ -77,6 +77,12 @@ $ npm i -D <package>
 $ npm install --production
 ```
 
+## uninstall 
+* Desinstala um pacote e retira no package.json
+```
+$ npm uninstall <package>
+```
+
 ## login
 * Conecta com o registry.npm
 ```
